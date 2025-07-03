@@ -71,6 +71,16 @@ DIVIDE(
 
 ### Images
 
+Gender Distribution by Region
+![Gender by Region](./Gender Distribution by Region.png)
+
+#### Gender Distribution by Department
+![Gender by Department](./gender_distribution_department.png)
+
+#### Overall Gender Distribution
+![Gender Pie](./gender_distribution_pie.png)
+
+
 Insight and Interpretation
 
 The company has a higher percentage of Male employees(49.15%) compared to Female(46.62%), with a small portion marked as N/A94.23%) where gender wasn’t specified.
