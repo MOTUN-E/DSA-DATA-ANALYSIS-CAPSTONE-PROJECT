@@ -72,13 +72,13 @@ DIVIDE(
 ### Images
 
 Gender Distribution by Region
-![Gender by Region](./Gender Distribution by Region.png)
+![Gender by Region](./GenderDistributionbyRegion(1).png)
 
 #### Gender Distribution by Department
 ![Gender by Department](./gender_distribution_department.png)
 
 #### Overall Gender Distribution
-![Gender Pie](./gender_distribution_pie.png)
+![Gender Pie](./Gender_Distributionby_Region.png)
 
 
 Insight and Interpretation
