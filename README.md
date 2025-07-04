@@ -99,7 +99,7 @@ The presence of N/A values indicates missing or undisclosed gender data, which s
 ## Pointer 2
 ### Rating Distribution and Comparison by Gender
 
-QA:What are the employee ratings by gender? Show insights on ratings based on gender.
+QA: What are the employee ratings by gender? Show insights on ratings based on gender.
 
 ### Visuals
 
