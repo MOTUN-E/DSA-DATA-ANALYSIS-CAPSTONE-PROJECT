@@ -6,6 +6,14 @@ This project analyzes HR data from the Palmora Group to identify gender-related 
 - `Palmoria Group emp-data.csv` – the main employee dataset
 - `Palmoria Group Bonus Rules.xlsx` – bonus rate mapping based on department and rating
 
+- Insights include:
+- Gender distribution across departments and salary bands
+- Bonus and performance rating differences by gender
+- Visualization of pay gaps, department representation, and policy thresholds
+
+* Tool: Power BI with DAX  
+* Goal: Support HR decision-making on gender equity and compensation fairness
+
 
 ## Data Preparation & Cleaning
 
