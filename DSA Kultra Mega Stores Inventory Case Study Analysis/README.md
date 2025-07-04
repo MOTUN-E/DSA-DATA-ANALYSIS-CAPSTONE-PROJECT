@@ -1,8 +1,19 @@
 # DSA SQL Project
 
-**Case Study:** Kultra Mega Stores Inventory (KMS)  
-**Scope:** Exploratory Data Analysis using SQL Server  
+## Project Overview
+**Case Study:** Kultra Mega Stores Inventory (KMS)    
+
 **Time Frame:** 2009–2012  
+
+**Scope:** A SQL-based project analyzing to provide business intelligence on:
+- Total sales by product category
+- Profitability across segments
+- Shipping cost patterns
+- Customer and regional trends
+
+**Tool:** SQL (SSMS)  
+
+**Goal:** Help Kultra optimize inventory, profit, and shipping strategies
 
 ---
 
