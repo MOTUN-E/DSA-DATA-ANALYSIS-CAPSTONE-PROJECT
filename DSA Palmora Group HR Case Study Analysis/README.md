@@ -6,14 +6,15 @@ This project analyzes HR data from the Palmora Group to identify gender-related 
 - `Palmoria Group emp-data.csv` – the main employee dataset
 - `Palmoria Group Bonus Rules.xlsx` – bonus rate mapping based on department and rating
 
-- Insights include:
+  **Insights include**:
 - Gender distribution across departments and salary bands
 - Bonus and performance rating differences by gender
 - Visualization of pay gaps, department representation, and policy thresholds
 
-* Tool: Power BI with DAX  
-* Goal: Support HR decision-making on gender equity and compensation fairness
+** Tool**: Power BI with DAX  
+** Goal**: Support HR decision-making on gender equity and compensation fairness
 
+---
 
 ## Data Preparation & Cleaning
 
@@ -54,21 +55,21 @@ This project analyzes HR data from the Palmora Group to identify gender-related 
 - Closed and applied all transformations.
 - Then remaned the new merged table as `Employee Table`
 
-
+---
 
 ## Pointers 1
 ### Gender Distribution Analysis
 
-QS: What is the gender distribution in the organization? Distil to regions and departments.
+**Q1**: What is the gender distribution in the organization? Distil to regions and departments.
 
 ### Visuals
 
-Bar Chart: Gender Distribution by Region/Department.
+**Bar Chart**: Gender Distribution by Region/Department.
 - Visualization Type: Stacked Bar Chart; X-Axis: Gender Count, Y-Axis: Region, Legend: Gender
 
-Slicer: To filter by Region/Department
+**Slicer**: To filter by Region/Department
 
-Pie Chart: Overall Gender Distribution.
+**Pie Chart**: Overall Gender Distribution.
  - Visualization Type: Pie Chart; Legend: Gender, Values: Gender Percentage
 
 
@@ -107,17 +108,17 @@ The presence of N/A values indicates missing or undisclosed gender data, which s
 ## Pointer 2
 ### Rating Distribution and Comparison by Gender
 
-QA: What are the employee ratings by gender? Show insights on ratings based on gender.
+**Q2**: What are the employee ratings by gender? Show insights on ratings based on gender.
 
 ### Visuals
 
-Histogram: Ratings Distribution by Gender
+**Histogram**: Ratings Distribution by Gender
 - Visualization Type: Clustered Column Chart; X-Axis: Rating, Y-Axis: Employee Name, Legend: Gender
 
-Slicer: To filter by Gender
+**Slicer**: To filter by Gender
 - Visualization Type: Slicer; Field: Gender
  
-Card Visual: Rating Comparison by Gender(Male, Female, N/A)
+**Card Visual**: Rating Comparison by Gender(Male, Female, N/A)
 - Visualization Type: Values; Average Rating (calculated using a measure)
 
 #### Images
@@ -153,19 +154,19 @@ These insights help highlight how performance evaluation is distributed across g
 ## Pointer 3 
 ### Salary Structure and Gender Pay Gap Analysis
 
-QA: Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management.
+**Q3**: Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management.
 
 ### Visuals
 
-Scatter Plot: "Salary vs. Gender"
+**Scatter Plot**: "Salary vs. Gender"
 - Visualization Type: Scatter Chart; X-Axis: Salary, Y-Axis: Gender, Values: Emplyee Name
 
-Bar Chart: "Average Salary by Department and Region"
+**Bar Chart**: "Average Salary by Department and Region"
 - Visualization Type: Clustered Bar Chart; X-Axis: Average Salary by Gender, Y-Axis: Region, Legend: Gender
 
-Slicers: Filter by Dept.
+**Slicers**: Filter by Dept.
 
-Card Visual: "Average Salary by Gender"
+**Card Visual**: "Average Salary by Gender"
 - Visualization Type: Card; Values: Average Salary by Gender(Male, Female, N/A)
 
 ### DAX Measures Used
@@ -206,7 +207,7 @@ The salary count measure helps quantify the concentration of salaries within eac
 ## Pointer 4 
 ### Minimum Salary Requirement Analysis
 
-QA: A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000
+**Q4**: A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000
 - Does Palmoria meet this requirement?
 - Show the pay distribution of employees grouped by a band of $10,000.
 - How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
@@ -214,12 +215,12 @@ QA: A recent regulation was adopted which requires manufacturing companies to pa
 
 ### Visuals
 
-Histogram: "Salary Distribution by $10,000 Band"
+**Histogram**: "Salary Distribution by $10,000 Band"
 - Visualization Type: Clustered Column Chart; X-Axis: Salary Band, Y-Axis: Employees Name, Legend: Gender
 slicer: Fliter Histogram by Region
-Bar Chart: "Employees Below Minimum Salary Threshold by Region"
+**Bar Chart**: "Employees Below Minimum Salary Threshold by Region"
 - Visualization Type: Clustered Column Chart; X-Axis: Region, Y-Axis: Employees Below Minimum Salary, legend: Gender 
-Card Visual:  "Employees Below Minimum Salary"
+**Card Visual**:  "Employees Below Minimum Salary"
 - Visualization Type: Card; Values: Employees Below Minimum Salary
 
 ### Images
@@ -254,16 +255,16 @@ Salary Banding was done using a conditional column in Power Query, grouping sala
 ## Pointer 5 
 ### Bonus Payment Calculation 
 
-QA: Help allocate the annual bonus pay to employees based on the performance rating, using the bonus rules provided.
+**Q5**: Help allocate the annual bonus pay to employees based on the performance rating, using the bonus rules provided.
 - Calculate the amount to be paid as a bonus to individual employees.
 - Calculate the total amount to be paid to individual employees (salary + bonus).
 - Calculate the total amount to be paid out per region and company-wide.
 
 ### Visuals
 
-Bar Chart: "Total Bonus Payout by Region"
+**Bar Chart**: "Total Bonus Payout by Region"
 - Visualization Type: Clustered Column Chart; X-Axis: Region, Y-Axis: Total Pay
-Table: "Individual Employee Bonus Payments"
+**Table**: "Individual Employee Bonus Payments"
 - Visualization Type: Table; Columns: Name, Department, Region, Rating, Salary, Bonus Rate, Annual Bonus, Total Pay
 
 ### Images
