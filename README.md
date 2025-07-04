@@ -72,12 +72,9 @@ Gender Distribution by Region
 Slicer by Dept.  
 ![Slicer by Department](Slicer%20by%20Department%20.png)
 
+Overall Gender Distribution
+![Overall Gender Distribution](OverallGenderDistribution.png)
 
-
-
-
-Overall Gender Distribution  
-![Overall Gender Distribution](Overall%20Gender%20Distribution%20%281%29.png)
 
 ### DAX Measures Used
 
@@ -117,14 +114,14 @@ Card Visual: Rating Comparison by Gender(Male, Female, N/A)
 
 #### Images
 
-Rating Distrbution by Gender
-![Rating Distribution](Rating%20Distribution%20by%20Gender%20%282%29.png)
+Rating Distribution by Gender
+![Rating Distribution by Gender](RatingDistributionbyGender.png)
 
  Rating Comparison by Gender  
 ![Rating Comparison](Rating%20Comparison%20by%20Gender%282%29.png)
 
-Slicer by Gender  
-![Slicer by Gender](Slicer%20by%20Gender%20%282%29.png)
+Slicer by Gender
+![Slicer by Gender](SlicerbyGender.png)
 
 ### DAX Measures Used
 
@@ -191,7 +188,7 @@ The scatter plot reveals a clustering pattern: male employees are more heavily c
 
 The bar chart provides a clear view of average salary differences across departments and regions. Certain regions like Lagos show a notable pay disparity.
 
-Card visuals show that the average salary for male employees is slightly higher than their female counterparts — supporting concerns about a potential gender pay gap.
+Card visuals show that the average salary for male employees is slightly higher than their female counterparts, supporting concerns about a potential gender pay gap.
 
 The salary count measure helps quantify the concentration of salaries within each department/region to identify specific areas of concern.
 
@@ -219,8 +216,8 @@ Card Visual:  "Employees Below Minimum Salary"
 
 ### Images
 
- Salary Distribution by $10,000 Band  
-![Salary Distribution](Salary%20Distribution%20by%20%2410%2C000%20Band%284%29.png)
+Salary Distribution by $10,000 Band
+![Salary Distribution by $10,000 Band](SalaryDistributionby$10,000Band.png)
 
 Employees Below Minimum Salary  
 ![Below Minimum Salary](Employee%20Below%20Minimum%20Salary%284%29.png)
@@ -251,8 +248,8 @@ Salary Banding was done using a conditional column in Power Query, grouping sala
 
 QA: Help allocate the annual bonus pay to employees based on the performance rating, using the bonus rules provided.
 - Calculate the amount to be paid as a bonus to individual employees.
--Calculate the total amount to be paid to individual employees (salary + bonus).
--Calculate the total amount to be paid out per region and company-wide.
+- Calculate the total amount to be paid to individual employees (salary + bonus).
+- Calculate the total amount to be paid out per region and company-wide.
 
 ### Visuals
 
@@ -274,10 +271,11 @@ Bonus amounts were calculated based on the Department and Performance Rating usi
 
 The bar chart displays how much each region is paying out in total bonuses, helping Palmora evaluate regional performance-based costs.
 
-The table visual breaks down bonus information for each employee — fully transparent and helpful for audits or internal communication.
+The table visual breaks down bonus information for each employee, fully transparent and helpful for audits or internal communication.
 
-Using conditional logic, employees with better ratings received higher bonuses, encouraging a performance-driven culture.
+Using conditional logic, employees with better ratings received higher bonuses, encouraging a performance driven culture.
 
-As stated early annual bonus was calculated using "[Salary] * [Bonus Rate]" while total pay is (Salary + Bonus): [Salary] + [Annual Bonus]. No measure was used
+As stated earlier annual bonus was calculated using "[Salary] * [Bonus Rate]" while total pay is (Salary + Bonus): [Salary] + [Annual Bonus]. No measure was used
 
-### Recommendation: Palmora should track bonus fairness by periodically reviewing the rating distribution to avoid bias and ensure equity in performance-based rewards.
+### Recommendation
+Palmora should track bonus fairness by periodically reviewing the rating distribution to avoid bias and ensure equity in performance-based rewards.
