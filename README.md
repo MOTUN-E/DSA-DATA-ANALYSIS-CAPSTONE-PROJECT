@@ -2,6 +2,7 @@
 
 This repository contains two in-depth case studies completed as part of a data analysis course. Each case focuses on a different business domain, one in Human Resources and the other in Retail Inventory Management. .
 
+---
 
 ## Project Overview
 
@@ -13,6 +14,7 @@ This capstone project includes:
 2. Kultra Mega Stores Inventory Analysis 
    A SQL-based project analyzing inventory, profit, shipping costs, and customer segments using multi-year retail data from 2009 to 2012.
 
+---
 
 ## Tools Used
 
@@ -21,6 +23,7 @@ This capstone project includes:
 - SQL (Microsoft SQL Server) (for querying structured data)
 - GitHub & Markdown (for project organization and documentation)
 
+---
 
 ## Repository Structure
 
@@ -37,7 +40,7 @@ Data-Analysis-Capstone-Project
 
 ┣  README.md (this file — overall project summary)
 
-
+---
 
 ## Additional Notes
 
