@@ -25,10 +25,13 @@ This capstone project includes:
 ## Repository Structure
 
 📦 Data-Analysis-Capstone-Project
+
 ┣ 📂 DSA Kultra Mega Stores Inventory Case Study
+
 ┃ ┣ 📄 README.md (includes questions, queries & insights)
 
 ┣ 📂 DSA Palmora Group HR Case Study Analysis
+
 ┃ ┣ 📄 README.md (includes full Power BI walkthrough)
 ┃ ┗ 📄 PNG images (Power BI visuals)
 
