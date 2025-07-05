@@ -22,6 +22,7 @@ This capstone project includes:
 - DAX (for calculated measures and insights)
 - SQL (Microsoft SQL Server) (for querying structured data)
 - GitHub & Markdown (for project organization and documentation)
+- Snipping Tool (for capturing visual outputs from Power BI)
 
 ---
 
